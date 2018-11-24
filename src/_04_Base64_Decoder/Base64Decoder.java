@@ -59,7 +59,7 @@ public class Base64Decoder {
 		a[0] = convertBase64Char(array[0]);
 		a[1] = convertBase64Char(array[1]);
 		a[2] = (byte) (convertBase64Char(array[2]) + convertBase64Char(array[3]));
-		return null;
+		return a;
 	}
 	
 	//3. Complete this method so that it takes in a string of any length
